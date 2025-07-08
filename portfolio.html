@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+
+<style>
+   
+  </style>
+  
+
+</head>
+<body>
+
+<!-- ✅ Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">MyPortfolio</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ✅ Hero Section -->
+<!-- ✅ Hero Section with Profile Image -->
+<header class="bg-light text-center py-5">
+    <!-- Profile Picture -->
+    <img src="img/ya.jpg" alt="My Photo" class="rounded-circle mb-3" width="150" height="150">
+  
+    <h1>Hello, I'm <span class="text-primary">Chakriya Ton</span></h1>
+    <p class="lead">Web Developer | IT Student | Freelancer</p>
+    <p class="mb-4">Welcome to my portfolio! I'm Chakriya the curious and creative person who’s passionate the endless possibilities 
+        <br>of technology and reading novel. I’m currently pursuing a degree in Information Technology at Build Bright University (BBU),
+        <br> where I’m sharpening my skills and building a future in th tech world.I’ve been blending my skills in design and coding to create 
+        <br>projects that combine logic with imagination.</p>
+    
+    
+    <a href="#projects" class="btn btn-primary mt-3">View My Work</a>
+  </header>
+  
+  
+</header>
+
+  
+<!-- ✅ Skills Section -->
+<section id="skills" class="container py-5">
+    <h2 class="text-center mb-4">Skills</h2>
+    <div class="row text-center">
+      <div class="col-md-3">
+        <div class="border p-3">
+          <i class="fab fa-html5 fa-2x text-danger mb-2"></i><br>
+          HTML
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="border p-3">
+          <i class="fab fa-css3-alt fa-2x text-primary mb-2"></i><br>
+          CSS
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="border p-3">
+          <i class="fab fa-js-square fa-2x text-warning mb-2"></i><br>
+          JavaScript
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="border p-3">
+          <i class="fab fa-bootstrap fa-2x text-info mb-2"></i><br>
+          Bootstrap
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- ✅ Projects Section -->
+<section id="projects" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">My Projects</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="img/sbaynew.png" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">sbaynew Website</h5>
+            <p class="card-text">អភិវឌ្ឍដោយ HTML, CSS</p>
+            <a href="https://chakriyaton.github.io/sabaytemplate/">View Website</a>
+          </div>
+        </div>
+      </div>
+      <!-- បន្ថែម Projects បន្ថែមបានដោយ copy/paste block នេះ -->
+    </div>
+  </div>
+</section>
+
+<!-- ✅ Contact Form -->
+<section id="contact" class="container py-5">
+  <h2 class="text-center mb-4">Contact Me</h2>
+  <form>
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name" placeholder="your name">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="email@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" id="message" rows="4" placeholder="Say something to me..."></textarea>
+    </div>
+    <button type="submit" class="btn btn-success">Send message</button>
+  </form>
+</section>
+
+
+<!-- ✅ Footer with Social Media -->
+<footer class="bg-primary text-white text-center p-4">
+    <div class="mb-3">
+      <a href="https://www.facebook.com/chakya.ton/" class="text-white me-4" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook fa-lg"></i>
+      </a>
+      <a href="https://github.com/chakriyaTon" class="text-white me-4" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github fa-lg"></i>
+      </a>
+      <a href="https://linkedin.com" class="text-white me-4" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin fa-lg"></i>
+      </a>
+      <a href="mailto:tonchakriya126@gmail.com" class="text-white" target="_blank" aria-label="Email">
+        <i class="fas fa-envelope fa-lg"></i>
+      </a>
+    </div>
+    <div>&copy; 2025 Chakriya Ton. All rights reserved.</div>
+  </footer>
+  
+
+<!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,  // រយៈពេល animation(ms)
+    once: true       // បង្ហាញ animation តែម្ដងប៉ុណ្ណោះ
+  });
+</script>
+
+</body>
+</html>
